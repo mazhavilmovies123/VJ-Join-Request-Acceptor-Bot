@@ -17,10 +17,7 @@ async def start_message(c,m):
         await db.add_user(m.from_user.id, m.from_user.first_name)
         await c.send_message(LOG_CHANNEL, LOG_TEXT.format(m.from_user.id, m.from_user.mention))
     await m.reply_photo(f"https://graph.org/file/0074381aba5bfe0f76b8f-bcfcf6c109b07ba6b5.jpg",
-        caption=f"<b>Hello {m.from_user.mention} 👋 I'ᴍ Aɴ Aᴜᴛᴏ Aᴘᴘʀᴏᴠᴇ Bᴏᴛ.
-I Cᴀɴ Aᴘᴘʀᴏᴠᴇ Usᴇʀs Iɴ Cʜᴀɴɴᴇʟs & Gʀᴏᴜᴘs.Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Cʜᴀɴɴᴇʟ Aɴᴅ Gʀᴏᴜᴘ ᴀɴᴅ Pʀᴏᴍᴏᴛᴇ Mᴇ Tᴏ Aᴅᴍɪɴ Wɪᴛʜ Aᴅᴅ Mᴇᴍʙᴇʀs Pᴇʀᴍɪssɪᴏɴ.
-
-Pᴏᴡᴇʀᴅ Bʏ : @MazhavilMoviesLinks</b>",
+        caption=f"<b>Hello {m.from_user.mention}\n\nI Am Join Request Acceptor Bot. I Can Accept All Old Pending Join Request.\n\nFor All Pending Join Request Use - /accept</b>",
         reply_markup=InlineKeyboardMarkup(
             [[
                 InlineKeyboardButton('🍻 Aᴅᴅ Tᴏ Cʜᴀᴛ 🍻', url='https://t.me/Mazhavil_approver_bot?startgroup')
