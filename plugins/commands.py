@@ -17,7 +17,7 @@ async def start_message(c,m):
         await db.add_user(m.from_user.id, m.from_user.first_name)
         await c.send_message(LOG_CHANNEL, LOG_TEXT.format(m.from_user.id, m.from_user.mention))
     await m.reply_photo(f"https://graph.org/file/0074381aba5bfe0f76b8f-bcfcf6c109b07ba6b5.jpg",
-        caption=f"<b>Hello {m.from_user.mention} 👋\n\nI'ᴍ Aɴ Aᴜᴛᴏ Aᴘᴘʀᴏᴠᴇ Bᴏᴛ.
+        caption=f"<b>Hello {m.from_user.mention} 👋 I'ᴍ Aɴ Aᴜᴛᴏ Aᴘᴘʀᴏᴠᴇ Bᴏᴛ.
 I Cᴀɴ Aᴘᴘʀᴏᴠᴇ Usᴇʀs Iɴ Cʜᴀɴɴᴇʟs & Gʀᴏᴜᴘs.Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Cʜᴀɴɴᴇʟ Aɴᴅ Gʀᴏᴜᴘ ᴀɴᴅ Pʀᴏᴍᴏᴛᴇ Mᴇ Tᴏ Aᴅᴍɪɴ Wɪᴛʜ Aᴅᴅ Mᴇᴍʙᴇʀs Pᴇʀᴍɪssɪᴏɴ.
 
 Pᴏᴡᴇʀᴅ Bʏ : @MazhavilMoviesLinks</b>",
@@ -76,7 +76,7 @@ async def approve_new(client, m):
             await client.send_message(LOG_CHANNEL, LOG_TEXT.format(m.from_user.id, m.from_user.mention))
         await client.approve_chat_join_request(m.chat.id, m.from_user.id)
         try:
-            await client.send_message(m.from_user.id, "**Hello {}!\nWelcome To {}\n\n__Powered By : @VJ_Botz __**".format(m.from_user.mention, m.chat.title))
+            await client.send_message(m.from_user.id, "**Hello {}!\nWelcome To {}\n\n__Powered By : @MazhavilMoviesLinks __**".format(m.from_user.mention, m.chat.title))
         except:
             pass
     except Exception as e:
