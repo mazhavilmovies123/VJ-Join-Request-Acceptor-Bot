@@ -23,10 +23,10 @@ I Cᴀɴ Aᴘᴘʀᴏᴠᴇ Usᴇʀs Iɴ Cʜᴀɴɴᴇʟs & Gʀᴏᴜᴘs.Aᴅ�
 Pᴏᴡᴇʀᴅ Bʏ : @MazhavilMoviesLinks</b>",
         reply_markup=InlineKeyboardMarkup(
             [[
-                InlineKeyboardButton('💝 sᴜʙsᴄʀɪʙᴇ ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/Mazhavil_approver_bot?startgroup')
+                InlineKeyboardButton('🍻 Aᴅᴅ Tᴏ Cʜᴀᴛ 🍻', url='https://t.me/Mazhavil_approver_bot?startgroup')
             ],[
-                InlineKeyboardButton("❣️ ᴅᴇᴠᴇʟᴏᴘᴇʀ", url='https://t.me/Kingvj01'),
-                InlineKeyboardButton("🤖 ᴜᴘᴅᴀᴛᴇ", url='https://t.me/VJ_Botz')
+                InlineKeyboardButton("⚓ Uᴘᴅᴀᴛᴇꜱ ⚓", url='https://t.me/+ckz3UhzSj54zMjQ1'),
+                InlineKeyboardButton("💥 Sᴜᴘᴘᴏʀᴛ 💥", url='https://t.me/+BTh89gNULSdiOWFl')
             ]]
         )
     )
